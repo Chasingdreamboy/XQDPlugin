@@ -9,6 +9,8 @@
 #import "DSFirstViewController.h"
 
 @interface DSFirstViewController ()
+@property (strong, nonatomic) UIView *topView;
+
 
 @end
 
@@ -16,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.topView = [[UIView alloc] initWithFrame:self.view.bounds];
+    _topView.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:_topView];
     // Do any additional setup after loading the view.
 }
 

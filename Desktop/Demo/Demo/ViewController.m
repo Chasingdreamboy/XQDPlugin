@@ -17,14 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"This is a text!");
+    NSLog(@"This a first");
     // Do any additional setup after loading the view, typically from a nib.
 }
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     DSFirstViewController *first = [[DSFirstViewController alloc] init];
+    first.title = @"First";
+    first.view.backgroundColor = [UIColor redColor];
     [self.navigationController pushViewController:first animated:YES];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
