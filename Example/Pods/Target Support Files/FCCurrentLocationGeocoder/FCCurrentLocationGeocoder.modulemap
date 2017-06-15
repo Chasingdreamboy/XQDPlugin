@@ -1,0 +1,6 @@
+framework module FCCurrentLocationGeocoder {
+  umbrella header "FCCurrentLocationGeocoder-umbrella.h"
+
+  export *
+  module * { export * }
+}

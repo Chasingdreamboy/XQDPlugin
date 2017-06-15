@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XQDPlugin_Example' do
+  pod 'XQDPlugin', :path => '../'
+
+  target 'XQDPlugin_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

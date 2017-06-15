@@ -1,0 +1,6 @@
+framework module UIResponder_KeyboardCache {
+  umbrella header "UIResponder+KeyboardCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

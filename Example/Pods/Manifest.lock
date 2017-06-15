@@ -1,0 +1,130 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.6.0)
+  - APAddressBook (0.1.14):
+    - APAddressBook/Core (= 0.1.14)
+  - APAddressBook/Core (0.1.14)
+  - CAAnimationBlocks (0.0.1)
+  - FCCurrentLocationGeocoder (1.1.11):
+    - FCIPAddressGeocoder (~> 1.0.0)
+  - FCIPAddressGeocoder (1.0.2)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - GTMBase64 (1.0.0)
+  - Kiwi (2.4.0)
+  - LLSimpleCamera (3.0.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - NYXImagesKit (2.3)
+  - OpenUDID (1.0.0)
+  - pop (1.0.9)
+  - RBBAnimation (0.3.0)
+  - RegexKitLite (4.0)
+  - RKDropdownAlert (0.3.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SimpleExif (0.0.1)
+  - TPKeyboardAvoiding (1.2.11)
+  - UICKeyChainStore (2.0.7)
+  - UIResponder+KeyboardCache (0.1)
+  - XQDPlugin (0.0.2):
+    - AFNetworking (~> 3.1.0)
+    - AliyunOSSiOS (~> 2.6.0)
+    - APAddressBook (~> 0.1.11)
+    - CAAnimationBlocks (~> 0.0.1)
+    - FCCurrentLocationGeocoder (~> 1.1.10)
+    - FontAwesomeKit (~> 2.2.0)
+    - GTMBase64 (~> 1.0.0)
+    - LLSimpleCamera (~> 3.0.0)
+    - MBProgressHUD (~> 0.8)
+    - MJRefresh
+    - NJKWebViewProgress (~> 0.2.3)
+    - NYXImagesKit (~> 2.3)
+    - OpenUDID (~> 1.0.0)
+    - pop (~> 1.0.8)
+    - RBBAnimation (~> 0.3.0)
+    - RegexKitLite (~> 4.0)
+    - RKDropdownAlert (~> 0.3.0)
+    - SDWebImage (~> 4.0.0)
+    - SimpleExif (~> 0.0.1)
+    - TPKeyboardAvoiding (~> 1.2.8)
+    - UICKeyChainStore (~> 2.0.6)
+    - UIResponder+KeyboardCache (~> 0.1)
+
+DEPENDENCIES:
+  - Kiwi
+  - XQDPlugin (from `../`)
+
+EXTERNAL SOURCES:
+  XQDPlugin:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AliyunOSSiOS: 058b038cc82000dadb8f8e3893a97243124f2898
+  APAddressBook: 697e88cdf8930e4a4783d813289e95822602e516
+  CAAnimationBlocks: 1aaca5fb6447a95d83b20cc786992956ef46e4ee
+  FCCurrentLocationGeocoder: b4aa2f877a2c25eee94b17fd040125edf9c5d888
+  FCIPAddressGeocoder: 2622f052eba06c78a707f8b9d9925a406d96ebbd
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  LLSimpleCamera: 3c41b46917f9ca53b91ef9c0cf24a75ce0ab4cd8
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  RBBAnimation: cb6cb419f511434ce932f7d0fabf369612fafb4e
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SimpleExif: 61ba6dce666641dc4b925d9d26a2694e68ebbf4b
+  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
+  UICKeyChainStore: 696cd35083f7c8fb5e201d909b7e6aea6b478575
+  UIResponder+KeyboardCache: dc1b7ff925c25ddb58b289bc71a3724c269767ef
+  XQDPlugin: aeb3bf8fb717bcfa409fcb411f5f986c7101385b
+
+PODFILE CHECKSUM: 72af6b988af5587e4570994a1132743c1ec4b296
+
+COCOAPODS: 1.2.1

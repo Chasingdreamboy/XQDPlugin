@@ -1,0 +1,6 @@
+framework module FCIPAddressGeocoder {
+  umbrella header "FCIPAddressGeocoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
