@@ -21,6 +21,7 @@
 @implementation XQDLoginViewController
 
 - (IBAction)sendSMSCode:(UIButton *)sender {
+    
     [[XQDUserService sharedService] sendSMSCode:_tf_Mobile.text block:^(id data, NSError *error) {
         if (!error) {
             [sender startTimeWithDuration:60];
@@ -36,6 +37,7 @@
     
 }
 - (IBAction)login:(id)sender {
+    
     NSString *mobile = _tf_Mobile.text;
     NSString *code = _tf_SMSCode.text;
     NSDictionary *params = @{@"mobile" : mobile, @"code" : code};

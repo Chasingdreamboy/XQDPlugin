@@ -1,6 +1,6 @@
 {
   "name": "XQDPlugin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "An easy way to install Xiaoqidai allication.",
   "description": "方便快速接入小期贷。",
   "homepage": "https://github.com/acct<blob>=<NULL>/XQDPlugin",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Chasingdreamboy/XQDPlugin.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"

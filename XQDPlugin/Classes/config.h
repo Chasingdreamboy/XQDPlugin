@@ -7,7 +7,8 @@
 //
 #ifndef gongfudai_config_h
 #define gongfudai_config_h
-#define ISDEV YES
+#define ISDEV NO
+
 
 //网关配置
 #define SERVICE_BASE_URL    ISDEV ? @"http://test.91gfd.com.cn/gongfudaiv2/dqd":@"https://www.91gfd.com.cn/gongfudaiv2/dqd"
