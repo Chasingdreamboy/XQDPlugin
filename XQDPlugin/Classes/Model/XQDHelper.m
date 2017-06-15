@@ -13,10 +13,7 @@
 
 @implementation XQDHelper
 + (NSBundle *)bundle {
-    NSBundle *currentBundle = [NSBundle bundleForClass:[XQDCameraViewController class]];
-//    NSBundle *mainBundle = [NSBundle mainBundle];
-//    NSLog(@"currentBundle = %@, mainBundle = %@", currentBundle, mainBundle);
-//    DSLog(@"currentBundle = %@, mainBundle = %@", currentBundle, mainBundle);
+    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
     NSURL *url = [currentBundle URLForResource:@"XQDPlugin" withExtension:@"bundle"];
     NSBundle *resourceBundle = [NSBundle bundleWithURL:url];
     return resourceBundle;

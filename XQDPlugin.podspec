@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
    s.public_header_files = 'XQDPlugin/Classes/XQDPlugin.h'
    s.frameworks = "UIKit", "CoreGraphics", "MobileCoreServices", "Security", "SystemConfiguration", "AddressBookUI", "AddressBook", "CoreLocation","ImageIO","AssetsLibrary","Accelerate","AVFoundation","ContactsUI","AdSupport","CoreMedia","CoreTelephony"
    s.library = 'z','c++','icucore','resolv'
-   #s.vendored_libraries = 'XQDPlugin/Frameworks/*.a'
+   s.ios.vendored_libraries = 'XQDPlugin/Frameworks/*.a'
    s.dependency 'AFNetworking', '~> 3.1.0'
    s.dependency 'MBProgressHUD', '~> 0.8'
    s.dependency 'APAddressBook','~> 0.1.11'

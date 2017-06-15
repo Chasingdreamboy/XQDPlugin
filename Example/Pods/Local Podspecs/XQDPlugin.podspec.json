@@ -56,6 +56,9 @@
     "icucore",
     "resolv"
   ],
+  "ios": {
+    "vendored_libraries": "XQDPlugin/Frameworks/*.a"
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 3.1.0"
