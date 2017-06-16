@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQDPlugin'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'An easy way to install Xiaoqidai allication.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
    s.resource_bundles = {
      'XQDPlugin' => ['XQDPlugin/Assets/*.png','XQDPlugin/Assets/*.xml','XQDPlugin/Assets/*.html', 'XQDPlugin/Assets/*.js','XQDPlugin/Assets/*.gif','XQDPlugin/Assets/*.storyboard','XQDPlugin/Assets/*.xib','XQDPlugin/Assets/*.xcassets']
    }
-   s.public_header_files = 'XQDPlugin/Classes/XQDPlugin.h','XQDPlugin/Classes/GFD_FMDeviceManager.h'
+   s.public_header_files = 'XQDPlugin/Classes/XQDPlugin.h'
    s.frameworks = "UIKit", "CoreGraphics", "MobileCoreServices", "Security", "SystemConfiguration", "AddressBookUI", "AddressBook", "CoreLocation","ImageIO","AssetsLibrary","Accelerate","AVFoundation","ContactsUI","AdSupport","CoreMedia","CoreTelephony"
    s.library = 'z','c++','icucore','resolv'
    s.ios.vendored_libraries = 'XQDPlugin/Frameworks/*.a'
