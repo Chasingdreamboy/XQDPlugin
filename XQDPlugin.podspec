@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQDPlugin'
-  s.version          = '0.0.8'
+  s.version          = '0.0.16'
   s.summary          = 'An easy way to install Xiaoqidai allication.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 方便快速接入小期贷。
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=<NULL>/XQDPlugin'
+  s.homepage         = 'https://github.com/Chasingdreamboy/XQDPlugin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'acct<blob>=<NULL>' => 'wangerdong@treefinance.com.cn' }
@@ -30,9 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'XQDPlugin/Classes/**/*'
+  
+  
    s.resource_bundles = {
      'XQDPlugin' => ['XQDPlugin/Assets/*.png','XQDPlugin/Assets/*.xml','XQDPlugin/Assets/*.html', 'XQDPlugin/Assets/*.js','XQDPlugin/Assets/*.gif','XQDPlugin/Assets/*.storyboard','XQDPlugin/Assets/*.xib','XQDPlugin/Assets/*.xcassets']
    }
+      
 	#s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/ios' }
 	s.xcconfig = {"LIBRARY_SEARCH_PATHS"=>"$(PODS_ROOT)/ios/XQDPlugin.framework"}
    s.public_header_files = 'XQDPlugin/Classes/XQDPlugin.h'
@@ -45,7 +48,7 @@ Pod::Spec.new do |s|
    s.dependency 'LLSimpleCamera', '~> 3.0.0'
    s.dependency 'NJKWebViewProgress', '~> 0.2.3'
    #s.dependency 'TPKeyboardAvoiding', '~> 1.2.8'
-   s.dependency 'NYXImagesKit', '~> 2.3'
+   #s.dependency 'NYXImagesKit', '~> 2.3'
    s.dependency 'FontAwesomeKit', '~> 2.2.0'
    s.dependency 'OpenUDID', '~> 1.0.0'
    s.dependency 'RKDropdownAlert', '~> 0.3.0'

@@ -22,6 +22,7 @@
 @property(nonatomic, assign)CGFloat centerY;
 @property(nonatomic, assign)CGPoint origin;
 
+
 @property (nonatomic) CGSize size;
 - (void)removeAllSubView;
 //- (UIGestureRecognizer *)gestureRecognizerWithTag:(NSInteger)tag;

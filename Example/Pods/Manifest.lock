@@ -53,7 +53,6 @@ PODS:
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
-  - NYXImagesKit (2.3)
   - OpenUDID (1.0.0)
   - pop (1.0.9)
   - RBBAnimation (0.3.0)
@@ -65,7 +64,7 @@ PODS:
   - SimpleExif (0.0.1)
   - UICKeyChainStore (2.0.7)
   - UIResponder+KeyboardCache (0.1)
-  - XQDPlugin (0.0.8):
+  - XQDPlugin (0.0.16):
     - AFNetworking (~> 3.1.0)
     - AliyunOSSiOS (~> 2.6.0)
     - APAddressBook (~> 0.1.11)
@@ -77,7 +76,6 @@ PODS:
     - MBProgressHUD (~> 0.8)
     - MJRefresh
     - NJKWebViewProgress (~> 0.2.3)
-    - NYXImagesKit (~> 2.3)
     - OpenUDID (~> 1.0.0)
     - pop (~> 1.0.8)
     - RBBAnimation (~> 0.3.0)
@@ -110,7 +108,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
-  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   RBBAnimation: cb6cb419f511434ce932f7d0fabf369612fafb4e
@@ -120,7 +117,7 @@ SPEC CHECKSUMS:
   SimpleExif: 61ba6dce666641dc4b925d9d26a2694e68ebbf4b
   UICKeyChainStore: 696cd35083f7c8fb5e201d909b7e6aea6b478575
   UIResponder+KeyboardCache: dc1b7ff925c25ddb58b289bc71a3724c269767ef
-  XQDPlugin: fe2ea41f8b24ca2bcc1c670afee2554079e537d5
+  XQDPlugin: 76b988d83a338e5b3b935b8edeba6ef350558816
 
 PODFILE CHECKSUM: 72af6b988af5587e4570994a1132743c1ec4b296
 

@@ -8,7 +8,7 @@
 
 #import "XQDTabBarItem.h"
 #import "UIView+Expand.h"
-#import <NYXImagesKit/UIImage+Resizing.h>
+#import "UIImage+Resizing.h"
 #import <objc/runtime.h>
 
 @implementation XQDTabBarItem

@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import "XQDOSSUtil.h"
 #import "UIImage+Exif.h"
-#import <NYXImagesKit/UIImage+Rotating.h>
+#import "UIImage+Rotating.h"
 #import <SimpleExif/ExifContainer.h>
 #import "XQDCameraViewController.h"
 #import "Header.h"

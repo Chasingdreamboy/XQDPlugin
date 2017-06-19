@@ -7,11 +7,12 @@
 
 #import "XQDCameraHolderViewController.h"
 #import "XQDCameraViewController.h"
-#import "ViewUtils.h"
+//#import "ViewUtils.h"
 #import "UIImage+Crop.h"
 #import "macro.h"
 #import "XQDHelper.h"
-#import <NYXImageskit/UIImage+Resizing.h>
+#import "UIImage+Resizing.h"
+#import "UIView+Expand.h"
 @interface XQDCameraHolderViewController (){
     
 }
@@ -34,13 +35,13 @@
     self.imageView.backgroundColor = [UIColor blackColor];
     // ----- initialize placeholder -------- //
     if (_placeHolderType==ImageViewPlaceholderTypeFront) {
-        _img_placeholder.image=[UIImage imageNamed:@"1080-1920-正面"];
+        _img_placeholder.image=[XQDHelper getImageWithNamed:@"1080-1920-正面"];
     }
     else if(_placeHolderType==ImageViewPlaceholderTypeBack){
-        _img_placeholder.image=[UIImage imageNamed:@"1080-1920-背面"];
+        _img_placeholder.image=[XQDHelper getImageWithNamed:@"1080-1920-背面"];
     }
     else{
-        _img_placeholder.image=[UIImage imageNamed:@"1080-1920-空"];
+        _img_placeholder.image=[XQDHelper getImageWithNamed:@"1080-1920-空"];
     }
 }
 
