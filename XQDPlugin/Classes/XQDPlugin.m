@@ -93,12 +93,10 @@ static dispatch_once_t onceToken;
     }
     NSString *lastMobile = CUSTOMER_GET(mobileKey);
     if (mobile && [lastMobile isEqualToString:mobile]) {
-        
         //手机号存在，且和上次的一样
         [self showMainTab];
         return;
     }
-    
     UIWindow *win = [UIWindow xqd_getWindow];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:win animated:YES];
     [[XQDJSONUtil sharedInstance] getJSONAsync:GET_SERVICE(@"/certification/checkMobileAndChannel") withData:@{@"mobile" : mobile}.getParas method:@"post" success:^(NSDictionary *data) {
