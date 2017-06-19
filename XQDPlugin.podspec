@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
      'XQDPlugin' => ['XQDPlugin/Assets/*.png','XQDPlugin/Assets/*.xml','XQDPlugin/Assets/*.html', 'XQDPlugin/Assets/*.js','XQDPlugin/Assets/*.gif','XQDPlugin/Assets/*.storyboard','XQDPlugin/Assets/*.xib','XQDPlugin/Assets/*.xcassets']
    }
 	#s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '/Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun' }
+	s.xcconfig = {"LIBRARY_SEARCH_PATHS"=>"$(PODS_ROOT)/ios/XQDPlugin.framework"}
    s.public_header_files = 'XQDPlugin/Classes/XQDPlugin.h'
    s.frameworks = "UIKit", "CoreGraphics", "MobileCoreServices", "Security", "SystemConfiguration", "AddressBookUI", "AddressBook", "CoreLocation","ImageIO","AssetsLibrary","Accelerate","AVFoundation","ContactsUI","AdSupport","CoreMedia","CoreTelephony"
    s.library = 'z','c++','icucore','resolv'
