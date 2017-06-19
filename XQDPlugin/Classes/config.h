@@ -7,7 +7,7 @@
 //
 #ifndef gongfudai_config_h
 #define gongfudai_config_h
-#define ISDEV NO
+#define ISDEV YES
 
 
 //网关配置
