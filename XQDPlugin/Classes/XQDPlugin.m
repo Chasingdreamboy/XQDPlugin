@@ -12,7 +12,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "RKDropdownAlert+Expand.h"
 #import "Header.h"
-#import "GFD_FMDeviceManager.h"
+//#import "GFD_FMDeviceManager.h"
 #import "UIWindow+Expand.h"
 #import "XQDNavigationController.h"
 #import "XQDLoginViewController.h"
@@ -55,18 +55,18 @@ static dispatch_once_t onceToken;
 
 }
 - (void)showWithMobile:(NSString *)mobile {
-    static dispatch_once_t pred;
-    dispatch_once(&pred, ^{
-        GFD_FMDeviceManager_t *manager = [GFD_FMDeviceManager sharedManager]; // 获取设备管理器实例
-        NSMutableDictionary *options = [NSMutableDictionary dictionary];
-        [options setValue:@"gfd" forKey:@"partner"]; //替换为您的partnerCode
-//#ifdef DEBUG //Debug模式,如果是Release模式将不会执⾏行以下代码
-        [options setValue:@"allowd" forKey:@"allowd"]; //允许调试,缺省不允许调试
-        [options setValue:@"sandbox" forKey:@"env"]; //对接测试环境,缺省为对接⽣生产环境
-//#endif
-        // [options setValue:@5000 forKey:@"timeout"]; //超时设置,缺省值为10000毫秒,即10 秒
-        manager->initWithOptions(options); //初始化
-    });
+//    static dispatch_once_t pred;
+//    dispatch_once(&pred, ^{
+//        GFD_FMDeviceManager_t *manager = [GFD_FMDeviceManager sharedManager]; // 获取设备管理器实例
+//        NSMutableDictionary *options = [NSMutableDictionary dictionary];
+//        [options setValue:@"gfd" forKey:@"partner"]; //替换为您的partnerCode
+////#ifdef DEBUG //Debug模式,如果是Release模式将不会执⾏行以下代码
+//        [options setValue:@"allowd" forKey:@"allowd"]; //允许调试,缺省不允许调试
+//        [options setValue:@"sandbox" forKey:@"env"]; //对接测试环境,缺省为对接⽣生产环境
+////#endif
+//        // [options setValue:@5000 forKey:@"timeout"]; //超时设置,缺省值为10000毫秒,即10 秒
+//        manager->initWithOptions(options); //初始化
+//    });
     
     if (![self appID] || ![self appKey]) {
         DSLog(@"Error:请先调用初始化方法[GFDPlugin setupAPPID: appKey:]传入所需参数");

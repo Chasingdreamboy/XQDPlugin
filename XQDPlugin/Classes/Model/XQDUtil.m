@@ -16,7 +16,7 @@
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-#import "GFD_FMDeviceManager.h"
+//#import "GFD_FMDeviceManager.h"
 #import <UICKeyChainStore/UICKeyChainStore.h>
 #import "RSA.h"
 #import "Header.h"
@@ -382,7 +382,7 @@
 }
 
 +(void) blackboxWithStep:(NSString*)step{
-    NSString *blackBox = [GFD_FMDeviceManager sharedManager]->getDeviceInfo();
+//    NSString *blackBox = [GFD_FMDeviceManager sharedManager]->getDeviceInfo();
     NSMutableDictionary* p=[NSMutableDictionary dictionary];
     if (CUSTOMER_GET(tokenKey)!=nil) {
         [p setObject:CUSTOMER_GET(tokenKey) forKey:@"token"];
@@ -390,9 +390,9 @@
     if (CUSTOMER_GET(userIdKey)!=nil) {
         [p setObject:CUSTOMER_GET(userIdKey) forKey:@"userId"];
     }
-    if(blackBox!=nil){
-        [p setObject:blackBox forKey:@"blackbox"];
-    }
+//    if(blackBox!=nil){
+//        [p setObject:blackBox forKey:@"blackbox"];
+//    }
     [p setObject:[self appVersion] forKey:@"appVersion"];
     [p setObject:@"ios" forKey:@"platform"];
     [p setObject:step forKey:@"stepId"];

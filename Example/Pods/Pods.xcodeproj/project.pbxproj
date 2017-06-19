@@ -570,7 +570,6 @@
 		AA4959949A290D4B8BE1E31A890D0C80 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDF61AC1A865F3FB6461AE2E351AD0D /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA5D9CC9D6CDA309F795E264285180FF /* NSObject+KiwiMockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A4D48A95104A0BAA09E71EDD23822B /* NSObject+KiwiMockAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AA7709C2A2A62A577754308E89BC9E2C /* KWSuiteConfigurationBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AFC7B6C56632BB5B97C60AD499C0B2 /* KWSuiteConfigurationBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB120BFCA0CE60721F71D958911A16E1 /* GFD_FMDeviceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6B6B4CE11B767680835D733BCF3AD6 /* GFD_FMDeviceManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB2697B643429809F1A63CCEE35E7938 /* KWMessageTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = F66EEAAE4FCAA564532552272035E335 /* KWMessageTracker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AB8CF47E881C7082AB851709E42F03CB /* XQDLocationPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D8557F64370DA9C7971D873E8AAF02DF /* XQDLocationPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABAEB220D8F1F97279AE1FC528E8EF04 /* KWBeMemberOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F124C2308397E57D274E2B5D1B1C6681 /* KWBeMemberOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -642,7 +641,6 @@
 		C47FA9210696A49D53B64133C6E83D33 /* XQDProgressPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA4F8A0329A1A8736FDF4FBA224E62B /* XQDProgressPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C51608D812E74EF84A28A0D9FB2A9E26 /* XQDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3888E7BE66C5C41C5E494D446DA09E60 /* XQDSettingViewController.m */; };
 		C52CABE0525F27A3C5A4AFDAC28296AB /* RegexKitLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A809BB27C7DDCB627E6581AD2BA6DED /* RegexKitLite-dummy.m */; };
-		C533AD601EF76F1B00CFBE0D /* libGFDFMDeviceManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9AF17482782253CFD1128A05519108 /* libGFDFMDeviceManager.a */; };
 		C54BCCA856DA676254DEA1B454844AA1 /* XQDBusinessPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F658D0E06DC913500BCBE7E35CE88783 /* XQDBusinessPlugin.m */; };
 		C6576B30C19E8C2D5F426581773B71C3 /* UIImageView+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FDA1CFD335FDEF7A126BA4160C5708 /* UIImageView+Expand.m */; };
 		C69A6430EC5F74A21150CC5F9D78486A /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69891A24E0AD47BAF6A42752B32C88FE /* POPDecayAnimation.mm */; };
@@ -1832,7 +1830,6 @@
 		AD1BA272321CC7A8C9F6837040FE35B4 /* KWSymbolicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSymbolicator.h; path = Classes/Core/KWSymbolicator.h; sourceTree = "<group>"; };
 		AD62F5AC2A805EC63BDFD3F0EB372269 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		AE08EFDE7B414E8E5EE1E5E1C8001AB4 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
-		AE6B6B4CE11B767680835D733BCF3AD6 /* GFD_FMDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GFD_FMDeviceManager.h; sourceTree = "<group>"; };
 		AED32A74DA2A89820C8E4D7726C9774E /* NSString+Expand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Expand.m"; sourceTree = "<group>"; };
 		AF20F5DD0167AE3340891ADD1006F777 /* XQDBasePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQDBasePlugin.h; sourceTree = "<group>"; };
 		AF521D3650A3FBA76476E46C663770B2 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
@@ -2137,7 +2134,6 @@
 		FCE1F512127728A55F0CF41CF6565DC2 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		FD298AC4A0F5F1325156DE68C41E67BB /* APAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAddressBook-dummy.m"; sourceTree = "<group>"; };
 		FD57B4E370E3ED3463735D61BED2E19C /* KWLetNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWLetNode.m; path = Classes/Nodes/KWLetNode.m; sourceTree = "<group>"; };
-		FD9AF17482782253CFD1128A05519108 /* libGFDFMDeviceManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libGFDFMDeviceManager.a; sourceTree = "<group>"; };
 		FE392DC412BFD799B836945FD8667489 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
 		FE42DCD0EAED10851BAF4404574E57D6 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
 		FE8175D6E16E10196CB2CEE6C0B3415D /* UIImage+Filtering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Filtering.h"; path = "Categories/UIImage+Filtering.h"; sourceTree = "<group>"; };
@@ -2300,7 +2296,6 @@
 				56BD88C0F7A8FA98C9B2815AED900FDB /* APAddressBook.framework in Frameworks */,
 				241BDD9745752F36EB9133E874845E3A /* AssetsLibrary.framework in Frameworks */,
 				1A48723C0E69FC5DBED903FDFE17580E /* AVFoundation.framework in Frameworks */,
-				C533AD601EF76F1B00CFBE0D /* libGFDFMDeviceManager.a in Frameworks */,
 				C27B9CFB527E9EA2B5D913EE027A4EB6 /* CAAnimationBlocks.framework in Frameworks */,
 				3AD2FCFACBD0B33FA277A1275951F47B /* ContactsUI.framework in Frameworks */,
 				5676032D952B632426F967B4D9ACA996 /* CoreGraphics.framework in Frameworks */,
@@ -3226,7 +3221,6 @@
 			isa = PBXGroup;
 			children = (
 				F6F347E61676F9645E0EF2EF7CDD4D39 /* RSA */,
-				A3BE96E871749913E7A03EFBB29FEB2E /* tongdun */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -3512,15 +3506,6 @@
 				5F913027E34E12728DBEE5DFAE53BFAF /* Assets */,
 			);
 			path = XQDPlugin;
-			sourceTree = "<group>";
-		};
-		A3BE96E871749913E7A03EFBB29FEB2E /* tongdun */ = {
-			isa = PBXGroup;
-			children = (
-				AE6B6B4CE11B767680835D733BCF3AD6 /* GFD_FMDeviceManager.h */,
-				FD9AF17482782253CFD1128A05519108 /* libGFDFMDeviceManager.a */,
-			);
-			path = tongdun;
 			sourceTree = "<group>";
 		};
 		A513FAAC69E5E4E2DDCB9AA02D2B78E7 /* RegexKitLite */ = {
@@ -4672,7 +4657,6 @@
 				B7FD35F369C9D16881B71F75244D9A39 /* config.h in Headers */,
 				9BACB321EC5C30D188E8BB6EB83944BF /* ConstString.h in Headers */,
 				0A53B2A8B52713B3C2D03EEA04718FC7 /* DSAboutViewController.h in Headers */,
-				AB120BFCA0CE60721F71D958911A16E1 /* GFD_FMDeviceManager.h in Headers */,
 				5D37E917B9C799F7CE5ED44AB849B040 /* Header.h in Headers */,
 				CEB7E3640C1534A4FB851AC28D8EDA12 /* macro.h in Headers */,
 				D1F22A261C399D615B4AAE6D5D3FE90D /* MBProgressHUD+Expand.h in Headers */,
@@ -6581,7 +6565,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = /Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun/;
+				LIBRARY_SEARCH_PATHS = "";
 				MODULEMAP_FILE = "Target Support Files/XQDPlugin/XQDPlugin.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = XQDPlugin;
@@ -7996,7 +7980,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = /Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun/;
+				LIBRARY_SEARCH_PATHS = "";
 				MODULEMAP_FILE = "Target Support Files/XQDPlugin/XQDPlugin.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = XQDPlugin;
