@@ -7,7 +7,7 @@
 //
 
 #import "XQDAppDelegate.h"
-#import <XQDPlugin/XQDPlugin-umbrella.h>
+#import <XQDPlugin/XQDPlugin.h>
 @implementation XQDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
