@@ -1,6 +1,6 @@
 {
   "name": "XQDPlugin",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "summary": "An easy way to install Xiaoqidai allication.",
   "description": "方便快速接入小期贷。",
   "homepage": "https://github.com/acct<blob>=<NULL>/XQDPlugin",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Chasingdreamboy/XQDPlugin.git",
-    "tag": "0.0.6"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "8.0"
@@ -30,6 +30,9 @@
       "XQDPlugin/Assets/*.xib",
       "XQDPlugin/Assets/*.xcassets"
     ]
+  },
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/ios/XQDPlugin.framework"
   },
   "public_header_files": "XQDPlugin/Classes/XQDPlugin.h",
   "frameworks": [
@@ -56,6 +59,9 @@
     "icucore",
     "resolv"
   ],
+  "ios": {
+    "vendored_libraries": "XQDPlugin/Frameworks/*.a"
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 3.1.0"
@@ -71,9 +77,6 @@
     ],
     "NJKWebViewProgress": [
       "~> 0.2.3"
-    ],
-    "TPKeyboardAvoiding": [
-      "~> 1.2.8"
     ],
     "NYXImagesKit": [
       "~> 2.3"

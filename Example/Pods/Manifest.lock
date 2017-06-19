@@ -63,10 +63,9 @@ PODS:
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - SimpleExif (0.0.1)
-  - TPKeyboardAvoiding (1.2.11)
   - UICKeyChainStore (2.0.7)
   - UIResponder+KeyboardCache (0.1)
-  - XQDPlugin (0.0.6):
+  - XQDPlugin (0.0.8):
     - AFNetworking (~> 3.1.0)
     - AliyunOSSiOS (~> 2.6.0)
     - APAddressBook (~> 0.1.11)
@@ -86,7 +85,6 @@ PODS:
     - RKDropdownAlert (~> 0.3.0)
     - SDWebImage (~> 4.0.0)
     - SimpleExif (~> 0.0.1)
-    - TPKeyboardAvoiding (~> 1.2.8)
     - UICKeyChainStore (~> 2.0.6)
     - UIResponder+KeyboardCache (~> 0.1)
 
@@ -120,10 +118,9 @@ SPEC CHECKSUMS:
   RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SimpleExif: 61ba6dce666641dc4b925d9d26a2694e68ebbf4b
-  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
   UICKeyChainStore: 696cd35083f7c8fb5e201d909b7e6aea6b478575
   UIResponder+KeyboardCache: dc1b7ff925c25ddb58b289bc71a3724c269767ef
-  XQDPlugin: 6beec3a6e1dc78a047adcbacec7f949d51d94310
+  XQDPlugin: fe2ea41f8b24ca2bcc1c670afee2554079e537d5
 
 PODFILE CHECKSUM: 72af6b988af5587e4570994a1132743c1ec4b296
 

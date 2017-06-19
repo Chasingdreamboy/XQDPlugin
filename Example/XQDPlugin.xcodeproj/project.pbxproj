@@ -534,10 +534,11 @@
 				DEVELOPMENT_TEAM = Q73S6C967P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XQDPlugin/XQDPlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"/Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun\"";
 				INFOPLIST_FILE = "XQDPlugin/XQDPlugin-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					/Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun/,
 					"$(PROJECT_DIR)/XQDPlugin",
+					"$(inherited)",
 				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.treefinance.xiaoqidaiSDKTEST;
@@ -554,10 +555,11 @@
 				DEVELOPMENT_TEAM = Q73S6C967P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XQDPlugin/XQDPlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"/Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun\"";
 				INFOPLIST_FILE = "XQDPlugin/XQDPlugin-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					/Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun/,
 					"$(PROJECT_DIR)/XQDPlugin",
+					"$(inherited)",
 				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.treefinance.xiaoqidaiSDKTEST;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQDPlugin'
-  s.version          = '0.0.6'
+  s.version          = '0.0.8'
   s.summary          = 'An easy way to install Xiaoqidai allication.'
 
 # This description is used to generate tags and improve search results.
@@ -33,18 +33,18 @@ Pod::Spec.new do |s|
    s.resource_bundles = {
      'XQDPlugin' => ['XQDPlugin/Assets/*.png','XQDPlugin/Assets/*.xml','XQDPlugin/Assets/*.html', 'XQDPlugin/Assets/*.js','XQDPlugin/Assets/*.gif','XQDPlugin/Assets/*.storyboard','XQDPlugin/Assets/*.xib','XQDPlugin/Assets/*.xcassets']
    }
-	#s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '/Users/wangxiaodong/Desktop/XQDPlugin/XQDPlugin/Classes/Vender/tongdun' }
+	#s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/ios' }
 	s.xcconfig = {"LIBRARY_SEARCH_PATHS"=>"$(PODS_ROOT)/ios/XQDPlugin.framework"}
    s.public_header_files = 'XQDPlugin/Classes/XQDPlugin.h'
    s.frameworks = "UIKit", "CoreGraphics", "MobileCoreServices", "Security", "SystemConfiguration", "AddressBookUI", "AddressBook", "CoreLocation","ImageIO","AssetsLibrary","Accelerate","AVFoundation","ContactsUI","AdSupport","CoreMedia","CoreTelephony"
    s.library = 'z','c++','icucore','resolv'
-   #s.ios.vendored_libraries = 'XQDPlugin/Frameworks/*.a'
+   s.ios.vendored_libraries = 'XQDPlugin/Frameworks/*.a'
    s.dependency 'AFNetworking', '~> 3.1.0'
    s.dependency 'MBProgressHUD', '~> 0.8'
    s.dependency 'APAddressBook','~> 0.1.11'
    s.dependency 'LLSimpleCamera', '~> 3.0.0'
    s.dependency 'NJKWebViewProgress', '~> 0.2.3'
-   s.dependency 'TPKeyboardAvoiding', '~> 1.2.8'
+   #s.dependency 'TPKeyboardAvoiding', '~> 1.2.8'
    s.dependency 'NYXImagesKit', '~> 2.3'
    s.dependency 'FontAwesomeKit', '~> 2.2.0'
    s.dependency 'OpenUDID', '~> 1.0.0'
@@ -55,14 +55,10 @@ Pod::Spec.new do |s|
    s.dependency 'UIResponder+KeyboardCache', '~> 0.1'
    s.dependency 'SimpleExif', '~> 0.0.1'
    s.dependency 'AliyunOSSiOS', '~> 2.6.0'
-   #s.dependency 'RSAEncrypt', '~> 1.1.0'
    s.dependency 'MJRefresh'
    s.dependency 'GTMBase64', '~> 1.0.0'
    s.dependency 'RBBAnimation', '~> 0.3.0'
    s.dependency 'CAAnimationBlocks', '~> 0.0.1'
    s.dependency 'SDWebImage', '~> 4.0.0'
-   s.dependency 'AliyunOSSiOS', '~> 2.6.0'
-   #s.dependency 'TalkingData-Analytics', :git => 'http://192.168.5.252/ios/TalkingData-Analytics.git'
-   #s.dependency 'TDBadgedCell','~> 4.1.1'
    s.dependency 'UICKeyChainStore', '~> 2.0.6'
 end
