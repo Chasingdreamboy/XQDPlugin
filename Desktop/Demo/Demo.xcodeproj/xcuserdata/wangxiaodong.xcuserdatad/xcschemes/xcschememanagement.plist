@@ -7,15 +7,7 @@
 		<key>Demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>C52D02161ED956C700E40887</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>8</integer>
 		</dict>
 	</dict>
 </dict>

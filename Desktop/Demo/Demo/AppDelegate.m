@@ -2,20 +2,22 @@
 //  AppDelegate.m
 //  Demo
 //
-//  Created by EriceWang on 2017/5/27.
+//  Created by EriceWang on 2017/10/28.
 //  Copyright © 2017年 Ericdong. All rights reserved.
 //
 
 #import "AppDelegate.h"
+//#import "ViewController.h"
 
 @interface AppDelegate ()
 
 @end
-
+extern NSString *AYOULoginNotificationName;
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSLog(@"AYOULoginNotificationName = %@", AYOULoginNotificationName);
     // Override point for customization after application launch.
     return YES;
 }
